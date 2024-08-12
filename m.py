@@ -20,10 +20,9 @@ TOKEN = '7100586832:AAHZttdjDfl678kaChACfDzvei7-BFFUhMY'
 
 MONGO_URI = 'mongodb+srv://VENOMxCRAZY:CRAZYxVENOM@cluster0.ythilmw.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0&tlsAllowInvalidCertificates=true'
 
-FORWARD_CHANNEL_ID = -1002208171994
-CHANNEL_ID = -1002208171994
-error_channel_id = -1002208171994
-
+FORWARD_CHANNEL_ID = -1002148521207
+CHANNEL_ID = -1002148521207
+error_channel_id = -1002148521207
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
 
 client = MongoClient(MONGO_URI, tlsCAFile=certifi.where())
